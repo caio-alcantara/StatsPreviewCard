@@ -1,0 +1,64 @@
+@media screen and (max-width: 375px) {
+    
+    .container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        max-width: 88%;
+    }
+
+    .stats {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .stats-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1.6rem;
+    }
+
+    .img-container {
+        order: 1;
+        border-radius: 1rem 1rem 0rem 0rem;
+    }
+
+    img {
+        border-radius: 1rem 1rem 0rem 0rem;
+    }
+
+    .img-desktop {
+        display: none;
+    }
+
+    .img-mobile {
+        display: block;
+    }
+
+    .pink-container {
+        border-radius: 1rem 1rem 0rem 0rem;
+    }
+
+    .text-container {
+        order: 2;
+        pad: 10%;
+
+        h1 {
+            font-size: 2.6rem;
+            text-align: center;
+            line-height: 3.6rem;
+            margin-bottom: 1.2rem;
+        }
+        .text {
+            text-align: center;
+            width: 100%;
+        }
+    }
+}

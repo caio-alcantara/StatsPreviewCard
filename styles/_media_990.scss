@@ -1,0 +1,64 @@
+@media screen and (max-width: 990px) {
+    
+    .container {
+        height: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        max-width: 78%;
+        margin: 3% 0;
+    }
+
+    .stats {
+        flex-wrap: wrap;
+    }
+
+    .stats-block {
+        display: flex;
+        flex-direction: column;
+        margin: 1.6rem;
+    }
+
+    .img-container {
+        order: 1;
+        border-radius: 1rem 1rem 0rem 0rem;
+    }
+
+    img {
+        border-radius: 1rem 1rem 0rem 0rem;
+    }
+
+    .img-desktop {
+        display: none;
+    }
+
+    .img-mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .pink-container {
+        border-radius: 1rem 1rem 0rem 0rem;
+    }
+
+    .text-container {
+        order: 2;
+        pad: 10%;
+
+        h1 {
+            font-size: 3.4rem;
+            line-height: 4.2rem;
+            margin-bottom: 3rem;
+            letter-spacing: 0.6px;
+        }
+        .text {
+            width: 100%;
+        }
+    }
+}
